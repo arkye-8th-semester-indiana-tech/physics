@@ -1,0 +1,30 @@
+\section{Problem (2)}
+	Hydraulic engineers in the United States often use, as a units of volume of water, the acre-foot, defined as the volume of water that will cover $1 \ acre$ (where $1 \ acre = 43560 \ ft^{2}$) of land to a depth of $1 \ ft$. A severe thunderstorm dumped $2.5 \ in.$ of rain in $30 \ min$ on a town of area $36 \ km^{2}$. What volume of water, in acre-feet, fell on the town? \newline
+	\textbf{R:} \newline
+	Step 1: Convert $2.5 \ in. \to ft$
+	\begin{align}
+		2.5 \ in. = \ & ? \ ft & \notag \\
+		= \ & 2.5 \ in.
+		\times \left( \frac{1 \ ft}{12 \ in.} \right)& \notag \\
+		= \ & 2.083 \times 10^{-1} \ ft  = 0.2083 \ ft&
+		\label{eq:2_feet}
+	\end{align}
+	Step 2: Convert $36 \ km^{2} \to acres$
+	\begin{align}
+		36 \ km = \ & ? \ acres & \notag \\
+		= \ & 36 \ km^{2}
+		\times \left( \frac{10^{5} \ cm}{1 \ km} \right)^{2}
+		\times \left( \frac{1 \ in.}{2.54 \ cm} \right)^{2}
+		\times \left( \frac{1 \ ft}{12 \ in.} \right)^{2}
+		\times \left( \frac{1 \ acre}{43560 \ ft^{2}} \right)& \notag \\
+		= \ & 8.8958 \times 10^{3} \ acres  = 8 \ 895.8 \ acres&
+		\label{eq:2_acres}
+	\end{align}
+	Step 3: Discover the volume in acre-feet using \cref{eq:2_acres} and \cref{eq:2_feet}
+	\begin{align}
+		\left( 8.8958 \times 10^{3} \right) \ acres
+		\times
+		\left( 2.083 \times 10^{-1} \right) \ ft
+		= \ & 1.853 \times 10^{3} \ acre \times ft & \notag \\
+		= \ & 1853 \ acre \times ft &
+	\end{align}
