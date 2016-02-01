@@ -1,10 +1,10 @@
 ## Arkye's LaTeX Structure Makefile ##
 
 # Output Name
-TARGET = JonathanMoraes_Physics_ClassNotes_03
+TARGET = JonathanMoraes_Physics_ClassNotes_05
 
 # LaTeX Project Settings
-MAIN_DIR = daily_notes/01_27
+MAIN_DIR = daily_notes/02_01
 MAIN_NAME = main
 MAIN_FILE = main.tex
 
