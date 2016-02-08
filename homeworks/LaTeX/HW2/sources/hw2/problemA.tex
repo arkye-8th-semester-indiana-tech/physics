@@ -5,8 +5,35 @@
 		How far beyond the traffic signal will the automobile overtake the truck?
 
 		\textbf{R:} \newline
+		\begin{align}
+			&\text{Automobile}& &\text{Truck}& \notag \\
+			&x_{A_{0}} = 0 \ ft& &x_{T_{0}} = 0 \ ft& \notag \\
+			&x_{A} = x_{T}& &x_{T} = x_{A}& \notag \\
+			&v_{A_{0}} = 0 \ ft/s& &v_{T_{0}} = 32 \ ft/s& \notag \\
+			&v_{A} = \text{?} \ ft/s& &v_{T} = v_{T_{0}} = 32 \ ft/s& \notag \\
+			&a_{A} = 6.7 \ ft/s^{2}& &a_{T} = 0 \ ft/s^{2}& \notag
+		\end{align}
 
+		\begin{align}
+			x = \ &x_{0} + v_{0}t + \frac{1}{2}at^{2}& \notag \\
+			x_{A} = \ &(0 \ ft) + (0 \ ft/s)t + \frac{1}{2} \left( 6.7 \ ft/s^{2} \right) t^{2}& \notag \\
+			= \ & \left( 3.35 \ ft/s^{2} \right) t^{2}& \notag \\
+			x_{T} = \ &(0 \ ft) + (32 \ ft/s)t + \frac{1}{2} \left( 0 \ ft/s^{2} \right) t^{2}& \notag \\
+			x_{T} = \ &(32 \ ft/s)t& \notag
+		\end{align}
+
+		\begin{align}
+			\left( 3.35 \ ft/s^{2} \right) t^{2} = \ &(32 \ ft/s)t& \notag \\
+			t = \ &\frac{32 \ ft/s}{3.35 \ ft/s^{2}} = 9.552 \ s& \notag \\
+			x_{T} = \ &(32 \ ft/s)(9.552 \ s) = 305.7 \ ft& \\
+			x_{A} = \ & \left( 3.35 \ ft/s^{2} \right) (9.552 \ s)^{2}& \notag \\
+			= \ & \left( 3.35 \ ft/s^{2} \right) (91.241 \ s^{2}) = 305.7 \ ft&
+		\end{align}
 	\subsection{Question (b)}
 		How fast will the car be traveling at that instant?
 
 		\textbf{R:} \newline
+		\begin{align}
+			v = \ &v_{0} + at& \notag \\
+			v_{A} = \ &(0 \ ft/s) + (6.7 \ ft/s^{2})(9.552 \ s) = 64 \ ft/s& \notag \\
+		\end{align}
