@@ -1,0 +1,16 @@
+iff \vec{a} = constant
+	1x
+	1y
+	2x
+	2y
+	
+Projectiles
+	y vs x
+	v_{0_x}
+	v_{0_y}
+	If ignore drag:
+		a_x = 0
+		v_x = constant
+		a_y = -g
+
+PH_1300_Examples: 5
