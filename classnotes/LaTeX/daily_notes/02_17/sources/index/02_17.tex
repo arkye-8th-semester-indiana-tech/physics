@@ -1,0 +1,60 @@
+% HW4 Due Monday
+\section{Kinematics in 2-D}
+	\begin{align}
+		\text{velocity} = \ &\text{speed} + \text{direction}& \notag \\
+		\vec{a} = \ &\frac{d\vec{v}}{dt}& \notag
+		v = \ &\left| \vec{v} \right| = \text{speed}& \notag
+	\end{align}
+	Let
+	\begin{align}
+		a_{t} = \ &\text{tangential acceleration}& \notag \\
+		= \ &\frac{dv}{dt} = \text{rate of change of speed}& \notag \\
+		= \ &\text{forward/back} = \text{tangent to direction of motion}& \notag \\
+		= \ &\text{speeding up/slowing down}& \notag \\
+	\end{align}
+	Let
+	\begin{align}
+		a_{c} = \ &\text{centripetal acceleration (center-pointing)}& \notag \\
+		= \ &\text{change in direction}& \notag \\
+		= \ &\text{sideways}& \notag \\
+		= \ &\text{radial acceleration} (a_{r})& \notag \\
+		a_{c} || \ &\text{direction of motion}& \notag
+	\end{align}
+	% GRAPH_1
+	\begin{align}
+		a_{c} = \ &\frac{v^{2}}{r}& \notag \\
+	\end{align}
+
+	Example: James Bond is in a centrifuge of radius $30 \ ft$. Where he sits he is moving at $100 \ ft/s$. If his acceleration exceeds $10g$, he will black out and die. What happens?
+
+	Note: $30' \ = \ 30 \ ft$; $12'' \ = \ 12 \ in.$
+
+	\begin{align}
+		a_{c} = \ &\frac{v^{2}}{r} = \frac{(100 \ ft/s)^{2}}{30 \ ft}& \notag \\
+		= \ &333.\bar{3} ft/s^{2} \times \frac{1g}{32.2 \ ft/s^{2}}& \notag \\
+		= \ &10.35g > 10g& \notag
+	\end{align}
+
+	He used a gadget and escaped.
+
+	% GRAPH_2
+
+	Example: A car going $60 \ mph$ enters a sharp curve of radius $300 \ feet.$ The driver stomps on the brakes and slows down to $30 \ mph$ in $2.0 \ s$. (assume at a steady rate). If the car's acceleration exceeds 1g, then it will lose grip and slide. What happened and why?
+
+	\begin{align}
+		a_{t} = \text{change in speed}
+		a_{t} = \frac{dv}{dt} = \frac{\Delta v}{\Delta t} = \frac{v - v_{0}}{t}
+		v_{0} = 60 \ mi/h \times \frac{5280 \ ft}{1 \ mi} \times \frac{1 \ h}{60 \ min} \times \frac{1 \ min}{60 \ s}
+		v_{0} = 88 \ ft/s
+		v = 30 \ mi/s = 44 \ ft/s
+		t = 2.0 \ s
+		r = 300 \ ft
+		a_{t} = \frac{v - v_{0}}{t}
+		= \frac{44 \ ft/s - 88 \ ft/s}{2.0 \ s}
+		a_{t} = -22 \ ft/s^{2}
+		a_{c} = \frac{v^{2}}{r} = \frac{(88 \ ft/s)^{2}}{300 \ ft}
+		a_{c} = 25.813 \ ft/s^{2}
+		a = \sqrt{a_{t}^{2} + a_{c}^{2}}
+		= \sqrt{(-22)^{2} + (25.813)^{2}}
+		= 33.9 \ ft/s^{2} > 32.2 \ ft/s^{2} = 1g
+	\end{align}
