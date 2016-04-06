@@ -1,10 +1,10 @@
 ## Arkye's LaTeX Structure Makefile ##
 
 # Output Name
-TARGET = JonathanMoraes_Physics_HW7
+TARGET = JonathanMoraes_Physics_HW8
 
 # LaTeX Project Settings
-MAIN_DIR = HW7
+MAIN_DIR = HW8
 MAIN_NAME = main
 MAIN_FILE = main.tex
 
