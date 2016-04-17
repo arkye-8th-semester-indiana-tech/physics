@@ -1,0 +1,50 @@
+\section{Chapter 8}
+
+	Example:
+
+	INITIAL
+	\begin{align}
+		m = 1.0 kg
+		\mu_{k} = 0.25
+		v_{i} = 3 m/s (when block hits spring)
+		k = 50 N/m
+	\end{align}
+
+	FINAL: Find d
+
+	FBD:
+	up: n
+	down: mg
+	left: fs, fk
+	right: (v, \Delta r)
+
+	\begin{align}
+		W_{n} = n \Delta r \cos \theta
+		= n \Delta r \cos 90^{o}
+		= 0
+		f_k = \mu_{k}n = \mu_{k}mg
+		W_{fk} = f_{k} \Delta r \cos \theta
+		= \mu_{k}mgd \cos 180^{o}
+		= -(0.25)(1 kg)(9.8 m/s)d
+		= - 2.45d
+		W_{nc} = W_{n} + W_{fk} = 0 - 2.45d
+		= - 2.45d
+		E_{tot,i} = K + U_{g} + U_{s}
+		= 0.5mv_{i}^{2} + mgy_i + 0.5kx_{i}^{2}
+		= 0.5(1 kg)(3 m/s)^{2} + (1 kg)(9.8 m/s^{2})(0) + 0.5(50 N/m)(0)^{2}
+		= 4.5 Kgm^{2}/s^{2}
+		E_{tot,i} = 4.5 J
+		E_{tot,f} = K + U_{g,f} + U_{s,f}
+		= 0.5mv_{f}^{2} + mgy_f + 0.5kx_{f}^{2}
+		= 0.5(1 kg)(0)^{2} + (1 kg)(9.8 m/s^{2})(0) + 0.5(50 N/m)(d)^{2}
+		E_{tot,f} = 0 + 0 + 25d^{2}
+		W_{nc} = E_{tot,f} - E_{tot,i}
+		-2.45d = 25d^{2} - 4.5
+		25d^{2} + 2.45d - 4.5 = 0
+		d_{1} = \frac{-(2.45) + \sqrt{2.45^{2} - 4(25)(-4.5)}}{2(25)}
+		= \frac{-2.45 + \sqrt{456.0025}}{50}
+		= \frac{-2.45 + 21.35}{50}
+		= 0.368 m
+		d_{2} = \frac{-(2.45) - \sqrt{2.45^{2} - 4(25)(-4.5)}}{2(25)}
+		= - 0.476 m
+	\end{align}

@@ -1,0 +1,128 @@
+\section{Chapter 10}
+	\begin{align}
+		1 rot = 1 rev = 2 \pi \rad = 360^{o}
+		r = radius from axis
+		\theta = angle rotated (rad)
+		s = arc length traveled
+	\end{align}
+
+	Example:
+
+	\begin{align}
+		\theta = 1 rot = 2 \pi \rad
+		s = circunference
+		s = 2 \pi r
+	\end{align}
+
+	Example:
+
+	\begin{align}
+		\theta = \frac{1}{2} rot = \pi \rad
+		s = \frac{1}{2} circunference
+		s = \pi r
+	\end{align}
+
+	In general:
+
+	\begin{align}
+		s = r \theta
+		\theta must be in radians
+	\end{align}
+
+	Let
+
+	\begin{align}
+		\omega = angular velocity
+		\omega = \frac{\Delta \theta}{\Delta t} \to \frac{d \theta}{dt} \to rad/s
+	\end{align}
+
+	\begin{align}
+		v = \frac{ds}{dt} = \frac{d}{dt} (r \theta)
+		= r \frac{d \theta}{dt}
+		v = r \omega
+	\end{align}
+
+	Example: A $16 inch$ tire rotates at $250 rpm$. What is speed of a point on the edge?
+
+	\begin{align}
+		\omega = 250 rpm
+		= 250 rpm
+		\times \frac{2 \pi rad}{1 rev}
+		\times \frac{1 min}{60 seg}
+		= 26.18 rad/s
+		v = r \omega
+		= (8 in) (26.18 rad/s)
+		v = 209.4 in/s
+	\end{align}
+
+	Example: A point on the edge of this tire travels $24 inches$. What angle has the tire rotated?
+
+	\begin{align}
+		s = 24 in
+		r = 8 in
+		s = r \theta
+		\theta = \frac{s}{r} = \frac{24 in}{8 in} = 3 rad
+	\end{align}
+
+	Let
+
+	\begin{align}
+		\alpha = angular acceleration (rad/s^{2})
+		\alpha = \frac{\Delta \omega}{\Delta t} \to \frac{d \omega}{dt}
+	\end{align}
+
+	\begin{align}
+		a_{t} = tangential acceleration
+		= \frac{dv}{dt} = \frac{d(r\omega)}{dt}
+		= r \frac{d \omega}{dt} = r \alpha
+		a_{t} = r \alpha
+	\end{align}
+
+	\begin{align}
+		s = r \theta
+		v = r \omega
+		a_{t} = r \alpha
+		a_{c} = r \omega^{2}
+	\end{align}
+
+	\begin{align}
+		Translation Rotation
+		x,s \to \theta
+		v \to \omega
+		a \to \alpha
+		m \to I
+		F \to \tau
+		P \to L
+	\end{align}
+
+	\begin{align}
+		a_{c} = centripetal acceleration
+		a_{c} = \frac{v^{2}}{r} = \frac{(r \omega)^{2}}{r} = r \omega^{2}
+	\end{align}
+
+	\begin{align}
+		\omega = \frac{d \theta}{dt}
+		\alpha = \frac{d \omega}{dt}
+		s = r \theta
+		v = r \omega
+		a_{t} = r \alpha
+		a_{c} = r \omega^{2}
+	\end{align}
+
+	Iff a = constant
+
+	\begin{align}
+		v = v_{0} + at
+		x = x_{0} + v_{0}t + \frac{1}{2}at^{2}
+		x = x_{0} + \frac{1}{2}(v_{0} + v)t
+		2a(x - x_{0}) = v^{2} - v_{0}^{2}
+	\end{align}
+
+	Iff \alpha = constant
+
+	\begin{align}
+		\omega = \omega_{0} + \alpha t
+		\theta = \theta_{0} + \omega_{0} t + \frac{1}{2}\alpha t^{2}
+		\theta = \theta_{0} + \frac{1}{2}(\omega_{0} + \omega)t
+		2\alpha(\theta - \theta_{0}) = \omega^{2} - \omega_{0}^{2}
+	\end{align}
