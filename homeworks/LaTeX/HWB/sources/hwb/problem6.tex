@@ -8,7 +8,21 @@
 		\textbf{R:}
 
 		\begin{align}
-			x
+			\omega_{1i} = \ &960 \ rev/min
+			\times \left( \frac{2 \pi \ rad}{1 \ rev} \right)
+			\times \left( \frac{1 \ min}{60 \ s} \right)& \notag \\
+			= \ &100.5310 \ rad/s& \notag \\
+			\omega_{2i} = \ &0 \ rad/s& \notag \\
+			I_{2i} = \ &4I_{1i}& \notag \\
+			I_{Rf} = \ &5I_{1i}& \notag
+		\end{align}
+		\begin{align}
+			\Delta L = \ &0& \notag \\
+			L_{f} = \ &L_{i}& \notag \\
+			I_{Rf}\omega_{Rf} = \ &I_{1i}\omega_{1i} + I_{2i}\omega_{2i}& \notag \\
+			5I_{1i}\omega_{Rf} = \ &I_{1i}(100.531 \ rad/s) + 4I_{1i}(0)& \notag \\
+			\omega_{Rf} = \ &\frac{I_{1i}(100.531 \ rad/s)}{5I_{1i}}& \notag \\
+			= \ &20.1062 \ rad/s&
 		\end{align}
 
 	\subsection{Question (b)}
@@ -18,5 +32,12 @@
 		\textbf{R:}
 
 		\begin{align}
-			x
+			\text{fraction \ lost} = \ &1 - \frac{K_{rot,f}}{K_{rot,i}}& \notag \\
+			= \ &1 - \frac{5I_{1i}\omega_{Rf}^{2}}{\frac{1}{2}\left( I_{1i}\omega_{1i}^{2} + I_{2i}\omega_{2i}^{2} \right)}& \notag \\
+			= \ &1 - \frac{5\omega_{Rf}^{2}}{\omega_{1i}^{2} + (0)}& \notag \\
+			= \ &1 - \frac{5(20.1062 \ rad/s)^{2}}{(100.5310 \ rad/s)^{2}}& \notag \\
+			= \ &1 - \frac{5(404.2593)}{10 \ 106.4820}& \notag \\
+			= \ &1 - \frac{2021.2965}{10 \ 106.4820}& \notag \\
+			= \ &1 - 0.2000& \notag \\
+			= \ &0.8000 = 80 \%&
 		\end{align}
